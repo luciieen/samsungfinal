@@ -1,0 +1,1048 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+header {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.he2 {
+  display: flex;
+  gap: 17px;
+}
+
+.absolute1 {
+  position: absolute;
+  display: flex;
+  gap: 100px;
+  display: none;
+}
+
+.point1:hover .absolute1 {
+  display: block;
+}
+
+.abd1 {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.abd1 > a {
+  font-weight: 400;
+  margin-top: 56px;
+  position: absolute;
+}
+
+.abd1 > a:hover {
+  font-weight: 600;
+}
+
+.abd2 {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.abd2 > a {
+  font-weight: 400;
+}
+
+.abd2 > a:hover {
+  font-weight: 600;
+}
+
+.he3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.he3d1 {
+  display: flex;
+  gap: 20px;
+}
+
+.he3d2 {
+  display: flex;
+  gap: 20px;
+}
+
+.fa-bars {
+  font-size: 21px;
+}
+
+.bar {
+  display: none;
+}
+
+@media (max-width: 426px) {
+  .he2 {
+    display: none;
+  }
+
+  .he3d1 {
+    display: none;
+  }
+
+  .bar {
+    display: block;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+}
+
+/* Slide */
+
+video {
+  margin-left: 1%;
+}
+
+.slidediv {
+  width: 99%px;
+  position: relative;
+}
+
+.l1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sam > div > h1 {
+  font-size: 45px;
+}
+
+.sam > div {
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 120px;
+}
+
+.bu {
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.bu:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+@media (max-width: 426px) {
+  video {
+    width: 450px;
+    margin-top: 170px;
+  }
+
+  .sam {
+    margin-left: -50px;
+    line-height: 22px;
+    background-color: rgb(245, 245, 245);
+    padding-top: 50px;
+  }
+
+  .sam > div {
+    position: absolute;
+    line-height: 22px;
+  }
+
+  .sam > div > h1 {
+    font-size: 30px;
+    margin-left: 25px;
+  }
+
+  .sam > div > p {
+    line-height: 15px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: -45px;
+  }
+
+  .sam > div > .l1 {
+    margin-left: px;
+    flex-direction: column-reverse;
+  }
+
+  .sam > div > .l1 > a {
+    font-size: 10px;
+  }
+}
+
+/* container 1 */
+
+.cont1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.c1d1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.c1d2 > a {
+  padding-right: 50px;
+  font-size: 18px;
+}
+
+.c1d2 > a:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+/* container 2 */
+
+.cont2 {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.c2d1 {
+}
+
+.c2img1 {
+}
+
+.c2img1:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+
+.lls1 > h2 {
+  position: relative;
+  text-align: center;
+  margin-top: -110px;
+}
+
+.lls1 > p {
+  position: relative;
+  text-align: center;
+}
+
+.c2d1:hover .lls1 > p {
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.lls1 > a {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  margin-left: 290px;
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 0;
+  margin-top: -30px;
+}
+
+.c2d1:hover .lls1 > a {
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.c2d2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* img1 */
+
+.c2img1 {
+  border-radius: 20px;
+}
+
+/* img2 */
+
+.c2img2 {
+  border-radius: 20px;
+}
+
+.gsf > h2 {
+  position: relative;
+  text-align: center;
+  margin-top: -110px;
+  margin-left: -7px;
+}
+
+.gsf > p {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+}
+
+.c2d2a:hover .gsf > p {
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.gsf > a {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  margin-left: 110px;
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 0;
+  margin-top: -25px;
+}
+
+.c2d2a:hover .gsf > a {
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.c2img2:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+
+/* img3 */
+
+.c2img3 {
+  border-radius: 20px;
+}
+
+.lls2 > h2 {
+  position: relative;
+  text-align: center;
+  margin-top: -115px;
+  margin-left: -7px;
+}
+
+.lls2 > p {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 27px;
+}
+
+.c2d2b:hover .lls2 > p {
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.lls2 > a {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  margin-left: 110px;
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 0;
+  margin-top: -25px;
+}
+
+.c2d2b:hover .lls2 > a {
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.c2img3:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+
+/* img4 */
+
+.c2img4 {
+  border-radius: 20px;
+}
+
+.kg > h2 {
+  position: relative;
+  text-align: center;
+  margin-top: -115px;
+  margin-left: -7px;
+}
+
+.kg > p {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 27px;
+}
+
+.c2d2c:hover .kg > p {
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.kg > a {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  margin-left: 110px;
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 0;
+  margin-top: -25px;
+}
+
+.c2d2c:hover .kg > a {
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.c2img4:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+
+/* img5 */
+
+.c2img5 {
+  border-radius: 20px;
+}
+
+.mm > h2 {
+  position: relative;
+  text-align: center;
+  margin-top: -115px;
+  margin-left: -7px;
+}
+
+.mm > p {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 27px;
+}
+
+.c2d2d:hover .mm > p {
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.mm > a {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  margin-left: 110px;
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 0;
+  margin-top: -25px;
+}
+
+.c2d2d:hover .mm > a {
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.c2img5:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 426px) {
+  .c1d1 {
+    font-size: 30px;
+  }
+
+  .c1d2 {
+    display: flex;
+    margin-left: 320px;
+  }
+
+  .c1d2 > a {
+  }
+}
+
+/* container 3 */
+
+.cont3 {
+  margin: 30px;
+  margin-top: 80px;
+  background-image: url(https://freedesignfile.com/upload/2017/02/Hearts-fly-valentine-backgrounds-vectors-material-07.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px 70px 30px;
+}
+
+.c3d1 {
+  font-size: 19px;
+}
+
+.c3d2 {
+  display: flex;
+  gap: 35px;
+}
+
+.c3d2 > a {
+  font-size: 20px;
+}
+
+.c3d2 > a {
+  font-size: 18px;
+  position: relative;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.c3d2 > a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  margin-bottom: 15px;
+  background-color: #000000;
+  background: linear-gradient(120deg, #000000);
+  transform: scaleX(0);
+  transition: 0.5s;
+}
+
+.c3d2 > a:hover::after {
+  transform: scaleX(1);
+}
+
+.c3d3 {
+  /* img */
+}
+
+.c3d4 {
+  font-size: 25px;
+}
+
+.c3d5 {
+  font-size: 20px;
+  height: 28px;
+}
+
+.c3d6 {
+  font-size: 20px;
+}
+
+.c3d7 {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.kodu {
+  font-size: 18px;
+  position: relative;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-top: px;
+}
+
+.kodu::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  margin-bottom: -4px;
+  background-color: #000000;
+  background: linear-gradient(120deg, #000000);
+  transform: scaleX(0);
+  transition: 0.2s;
+}
+
+.kodu:hover::after {
+  transform: scaleX(1);
+  height: 2px;
+}
+
+.buy2 {
+  padding-top: 30px;
+}
+
+.buy2 > a {
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.buy2 > a:hover {
+  opacity: 0.7;
+}
+
+/* container 4 */
+
+.cont4 {
+  margin: 30px;
+  margin-top: -50px;
+  background-image: url(https://png.pngtree.com/background/20220714/original/pngtree-blurred-valentine-s-day-pink-hearts-background-picture-image_1606252.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px 70px 30px;
+}
+
+.c4d1 {
+  font-size: 19px;
+}
+
+.c4d2 {
+  display: flex;
+  gap: 35px;
+}
+
+.qled::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 22px;
+  background-color: #000000;
+  background: linear-gradient(120deg, #000000);
+  transform: scaleX(1);
+}
+
+.c4d2 > a {
+  font-size: 20px;
+}
+
+.c4d2 > a {
+  font-size: 18px;
+  position: relative;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.c4d2 > a:hover {
+}
+
+.c4d3 {
+  /* img */
+}
+
+.c4d4 {
+  font-size: 25px;
+}
+
+.c4d5 {
+  font-size: 20px;
+  height: 28px;
+}
+
+.c4d6 {
+  font-size: 20px;
+}
+
+.buy1 > a {
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.buy1 > a:hover {
+  opacity: 0.7;
+}
+
+/* container 5 */
+
+.cont5 {
+  margin: 30px;
+  margin-top: -50px;
+  background-image: url(https://marketplace.canva.com/EAFVL6mT9kg/1/0/1600w/canva-pink-heart-valentine%27s-day-zoom-virtual-background-Vu0rQ7U8i4A.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px 50px 30px;
+}
+
+.c5d1 {
+  font-size: 19px;
+}
+
+.c5d2 {
+  display: flex;
+  gap: 35px;
+}
+
+.qled::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 22px;
+  background-color: #000000;
+  background: linear-gradient(120deg, #000000);
+  transform: scaleX(1);
+}
+
+.c5d2 > a {
+  font-size: 20px;
+}
+
+.c5d2 > a {
+  font-size: 18px;
+  position: relative;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.c5d2 > a:hover {
+}
+
+.c5d3 {
+  /* img */
+}
+
+.c5d4 {
+  font-size: 25px;
+}
+
+.c5d5 {
+  font-size: 20px;
+  height: 28px;
+}
+
+.c5d6 {
+  font-size: 20px;
+}
+
+.buy3 {
+  padding-top: 30px;
+}
+
+.buy3 > a {
+  background-color: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px 50px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.buy3 > a:hover {
+  opacity: 0.7;
+}
+
+/*  recomended products */
+
+.rp {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* container 6 */
+
+.cont6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.c6d1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  padding: 10px 35px;
+  border-radius: 25px;
+}
+
+.a6 {
+}
+
+.b6 {
+  font-size: 13px;
+}
+
+.c6d2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.color1 {
+  background-color: wheat;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color2 {
+  background-color: rgb(103, 103, 103);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color3 {
+  background-color: rgb(47, 47, 47);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c6d2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.gb1 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.gb2 {
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 6px 10px;
+}
+
+.d6 {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.e6 {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.f6 {
+  font-size: 13px;
+  color: blue;
+  text-decoration: underline;
+  margin-top: -10px;
+}
+
+.buy3 {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  padding: 11px;
+  border-radius: 20px;
+}
+
+.buy3:hover {
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+/* container 7 */
+
+.cont7 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+/* container 8 */
+
+.cont8 {
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+
+.c8d2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.c8d1 {
+  width: 500px;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+}
+
+.c8d1 > img {
+  border-radius: 15px;
+}
+
+.c8d1 > img:hover {
+  scale: 1.02;
+  transition: 0.2s;
+}
+
+.top1 {
+  line-height: 40px;
+}
+
+.top1 > p {
+  margin-left: 20px;
+  font-weight: 600;
+  width: 600px;
+}
+
+.bordertop {
+  border-top: 2px solid black;
+  width: 500px;
+  display: none;
+}
+
+.learnmore {
+  font-size: 14px;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  display: none;
+}
+
+.common:hover .learnmore {
+  display: block;
+}
+
+.common:hover .bordertop {
+  display: block;
+}
+
+/* container 9 */
+
+.cont9 {
+  margin-top: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cont9 > h1 {
+  font-size: 40px;
+}
+
+::placeholder {
+  font-size: 20px;
+  position: absolute;
+  margin-top: -4px;
+}
+
+.cont9 > input {
+  padding: 18px 260px 18px 30px;
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 30px;
+}
+
+.c9d1 > a {
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 40px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.c9d1 > a:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.c9d1 {
+  display: flex;
+  gap: 10px;
+}
+
+/* footer */
+
+.cont10 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.fd1 {
+  display: flex;
+  gap: 20px;
+}
+
+.fd1 > a {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.fd2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.fd2 > a > i {
+  font-size: 23px;
+}
+
+.fd2 > p {
+  font-size: 12px;
+}
